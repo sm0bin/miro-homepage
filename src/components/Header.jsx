@@ -74,8 +74,7 @@ const Header = () => {
             </div>
             <div className="navbar-end w-2/3">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a><FiGlobe className="text-lg" /></a></li>
-                    <li><a>EN</a></li>
+                    <li><a><FiGlobe className="text-lg" /> EN</a></li>
                     <li><a>Contact Sales</a></li>
                     <li><a>Login</a></li>
                 </ul>
