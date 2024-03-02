@@ -1,10 +1,10 @@
-import React from 'react';
+import { FiGlobe } from "react-icons/fi";
 
 const Header = () => {
 
     return (
-        <div className="navbar bg-base-100">
-            <div className="navbar-start">
+        <div className="navbar bg-base-100 border-b">
+            <div className="navbar-start w-max">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -37,7 +37,7 @@ const Header = () => {
 
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl"><img src="/logo.svg"></img></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -72,8 +72,15 @@ const Header = () => {
                     <li><a>Pricing</a></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end w-2/3">
+                <ul className="menu menu-horizontal px-1">
+                    <li><a><FiGlobe className="text-lg" /></a></li>
+                    <li><a>EN</a></li>
+                    <li><a>Contact Sales</a></li>
+                    <li><a>Login</a></li>
+                </ul>
+
+                <a className="btn btn-primary rounded-full">Sign up free →</a>
             </div>
         </div>
     );
