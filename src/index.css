@@ -7,3 +7,24 @@
 * {
     font-family: 'Inter', sans-serif;
 }
+
+.react-tabs__tab {
+    font-size: .75rem;
+    padding: 1rem 1.25rem;
+    margin-right: .25rem;
+    border-radius: 2rem;
+    border: 1px solid #F2F2F2;
+    transition: all 0.3s ease;
+}
+
+.react-tabs__tab:hover {
+    background: #F1F3FD;
+}
+
+.react-tabs__tab--selected {
+    background: #F1F3FD;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 0;
+}

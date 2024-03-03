@@ -10,7 +10,7 @@ const Testimonials = () => {
             companyLogo: testimonial1,
             quote: "When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.",
             client: {
-                image: "https://source.unsplash.com/400x400/?face",
+                image: "https://source.unsplash.com/bqe0J0b26RQ",
                 name: "Roxanne Mustafa",
                 position: "Design Team Lead at VMware"
             }
@@ -19,7 +19,7 @@ const Testimonials = () => {
             companyLogo: testimonial2,
             quote: "Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.",
             client: {
-                image: "https://source.unsplash.com/400x400/?face",
+                image: "https://source.unsplash.com/IF9TK5Uy-KI",
                 name: "Jane Ashley",
                 position: "Head of Design at DocuSign"
             }
@@ -28,7 +28,7 @@ const Testimonials = () => {
             companyLogo: testimonial3,
             quote: "As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that's at the core of what we do and will continue to extend into the future.",
             client: {
-                image: "https://source.unsplash.com/400x400/?face",
+                image: "https://source.unsplash.com/xOjzehJ49Hk",
                 name: "Laura Baird",
                 position: "Associate Design Director at frog"
             }
