@@ -32,7 +32,7 @@ const Collaborate = () => {
 
 
     return (
-        <div className='mt-36 mb-8'>
+        <section className='mt-36 mb-8'>
             <div className='w-3/5 text-center relative mx-auto'>
                 <div className="badge badge-warning uppercase absolute rotate-12 right-0 -top-4">Your idea starts here</div>
 
@@ -54,7 +54,7 @@ const Collaborate = () => {
             </div>
 
             <button className="btn btn-primary rounded-full block mx-auto">Sign up free →</button>
-        </div>
+        </section>
     );
 };
 

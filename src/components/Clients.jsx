@@ -8,7 +8,7 @@ const Clients = () => {
     const clients = [client1, client2, client3, client4, client5];
 
     return (
-        <div>
+        <section>
             <p className='text-lg opacity-60 text-center mb-12 mt-32'>Trusted by 45M+ users</p>
             <div className='flex justify-around'>
                 {
@@ -19,7 +19,7 @@ const Clients = () => {
 
             </div>
 
-        </div>
+        </section>
     );
 };
 

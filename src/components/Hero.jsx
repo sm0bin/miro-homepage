@@ -8,7 +8,7 @@ import company3 from '../assets/company-logos/company-3.svg';
 
 const Hero = () => {
     return (
-        <div className='flex gap-20 mt-16'>
+        <section className='flex gap-20 mt-16'>
             <div className=''>
 
                 <h1 className='font-bold text-5xl mb-4'>Take ideas from better to best</h1>
@@ -47,7 +47,7 @@ const Hero = () => {
             <img className='w-7/12' src={image} alt="hero image" />
 
 
-        </div>
+        </section>
     );
 };
 

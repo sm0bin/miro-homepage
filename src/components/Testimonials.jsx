@@ -37,7 +37,7 @@ const Testimonials = () => {
 
 
     return (
-        <div>
+        <section>
             <div className="text-center">
                 <Headline text="Loved by the world's best teams" />
                 <button className="btn btn-primary btn-outline rounded-full mt-6">See all customer stories →</button>
@@ -65,7 +65,7 @@ const Testimonials = () => {
                 ))}
             </div>
 
-        </div>
+        </section>
     );
 };
 

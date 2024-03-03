@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Connect = () => {
     return (
-        <div className='flex justify-between items-center flex-row-reverse gap-28'>
+        <section className='flex justify-between items-center flex-row-reverse gap-28'>
             <div>
                 <Headline text='Connect 
 your tools, 
@@ -15,7 +15,7 @@ close your tabs' />
             </div>
             <img className='w-7/12' src={image} alt="work image" />
 
-        </div>
+        </section>
     );
 };
 

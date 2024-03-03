@@ -3,7 +3,7 @@ import { FiGlobe } from "react-icons/fi";
 const Header = () => {
 
     return (
-        <div className="navbar bg-base-100 border-b">
+        <nav className="navbar bg-base-100 border-b">
             <div className="navbar-start w-max">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -81,7 +81,7 @@ const Header = () => {
 
                 <a className="btn btn-primary rounded-full">Sign up free →</a>
             </div>
-        </div>
+        </nav>
     );
 };
 
