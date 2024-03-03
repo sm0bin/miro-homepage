@@ -12,7 +12,7 @@ const Hero = () => {
             <div className=''>
 
                 <h1 className='font-bold text-5xl mb-4'>Take ideas from better to best</h1>
-                <p className='text-lg mb-8'>Miro is your team's visual platform to connect, collaborate, and create — together.</p>
+                <p className='text-lg mb-8 mt-4'>Miro is your team's visual platform to connect, collaborate, and create — together.</p>
                 <form className="card-body p-0">
                     <div className="form-control">
                         <input type="email" placeholder="Enter your work email" className="input input-bordered rounded-full" required />
