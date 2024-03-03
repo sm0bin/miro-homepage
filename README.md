@@ -1,8 +1,22 @@
-# React + Vite
+# Miro Homepage Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a demonstration of a homepage design implemented using React, showcasing the ability to translate designs from Figma into functional web pages.
 
-Currently, two official plugins are available:
+## Figma Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The homepage design for this project was created using Figma. You can view the design file [here](<https://www.figma.com/file/7ePPOw1iwobdXGmRi04ki5/front-end-assignment-(Copy)?type=design&node-id=1%3A23&mode=dev>).
+
+## Live Preview
+
+You can view the live preview of this project [here](https://miro-homepage.surge.sh).
+
+## About
+
+This project serves as a demonstration of frontend development skills, particularly in implementing designs faithfully using React components. It showcases how design principles are applied in code, highlighting attention to detail and adherence to design specifications.
+
+## Technologies Used
+
+- React
+- HTML
+- CSS
+- JavaScript
