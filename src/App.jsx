@@ -6,6 +6,7 @@ import Collaborate from './components/Collaborate';
 import Work from './components/Work';
 import Connect from './components/Connect';
 import Ways from './components/Ways';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Work />
         <Connect />
         <Ways />
+        <Testimonials />
       </div>
 
 
