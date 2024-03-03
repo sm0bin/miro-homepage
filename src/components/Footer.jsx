@@ -20,12 +20,6 @@ const Footer = () => {
         }
     ]
 
-    //     iPhone
-    // Android
-    // Help
-    // About
-    // Insights
-
     const footerLinks = [
         {
             title: 'iPhone',
