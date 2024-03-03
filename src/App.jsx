@@ -8,6 +8,7 @@ import Connect from './components/Connect';
 import Ways from './components/Ways';
 import Testimonials from './components/Testimonials';
 import Brainstorming from './components/Brainstorming';
+import Teams from './components/Teams';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Connect />
         <Ways />
         <Brainstorming />
+        <Teams />
         <Testimonials />
       </div>
 
