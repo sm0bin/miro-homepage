@@ -42,9 +42,9 @@ const Testimonials = () => {
                 <Headline text="Loved by the world's best teams" />
                 <button className="btn btn-primary btn-outline rounded-full mt-6">See all customer stories →</button>
             </div>
-            <div className="grid grid-cols-3 gap-5 mt-20 mb-24">
+            <div className="grid grid-cols-3 gap-20 mt-20 mb-24">
                 {testimonialData.map((testimonial, index) => (
-                    <div key={index} className="p-9 flex flex-col">
+                    <div key={index} className="flex flex-col">
                         <img src={testimonial.companyLogo} alt="Company Logo" className="mx-auto" />
                         <div className='grow'>
                             <p className="text-gray-600 mt-8">{testimonial.quote}</p>

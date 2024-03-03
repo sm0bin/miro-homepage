@@ -9,11 +9,13 @@ import Ways from './components/Ways';
 import Testimonials from './components/Testimonials';
 import Brainstorming from './components/Brainstorming';
 import Teams from './components/Teams';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <>
       <Header />
+
       <div className='max-w-6xl mx-auto'>
         <Hero />
         <Clients />
@@ -26,7 +28,7 @@ const App = () => {
         <Testimonials />
       </div>
 
-
+      <Footer />
     </>
   );
 };
