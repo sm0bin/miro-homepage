@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Clients from './components/Clients';
 import Collaborate from './components/Collaborate';
 import Work from './components/Work';
+import Connect from './components/Connect';
+import Ways from './components/Ways';
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <Clients />
         <Collaborate />
         <Work />
+        <Connect />
+        <Ways />
       </div>
 
 
